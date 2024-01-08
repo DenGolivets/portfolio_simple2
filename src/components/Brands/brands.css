@@ -1,0 +1,14 @@
+.brands {
+    background-color: rgba(255, 255, 0, 0.671);
+    padding: 60px 0 55px;
+}
+
+.brands-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.brands-list img {
+    mix-blend-mode: multiply;
+}
