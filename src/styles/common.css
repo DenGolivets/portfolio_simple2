@@ -15,18 +15,18 @@ body {
     padding: 0 30px;
 }
 
-.title-2 {
+.title2 {
     display: inline-block;
     position: relative;
     font-weight: 900;
     font-size: 48px;
     line-height: 1.04;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.title-2::after {
+.title2::after {
     content: "";
-
     position: absolute;
     z-index: -1;
     right: 0px;
