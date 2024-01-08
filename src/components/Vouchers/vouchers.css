@@ -1,0 +1,63 @@
+.vouchers {
+    padding: 60px 180px 60px 180px;
+}
+
+.vouchers_content {
+    display: flex;
+    column-gap: 24px;
+}
+
+.vouchers_text {
+    width: Hug (507px);
+    height: Hug (246px);
+    gap: 41px;
+    margin-top: 250px;    
+}
+
+.vouchers_download {
+    max-width: 510px;
+    display: inline-block;
+    position: relative;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.vouchers_social {
+    max-width: 420px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.vouchers_img {
+    /* width: 671px;
+    height: 710px;
+    top: 4716px;
+    left: 1031px;
+    border-radius: 34.98px; */
+    margin-left: 250px;
+}
+
+.vouchers_links {
+    display: flex;
+    margin-top: 60px;
+    width: Hug (400px);
+    height: Hug (50px);
+    gap: 19px;
+}
+
+.AppIcon:hover {
+    opacity:  0.6;
+}
+
+.GoogleIcon:hover {
+    opacity:  0.8;
+}
