@@ -1,0 +1,100 @@
+.banner {
+    padding: 80px 0 143px 0;
+}
+
+.container_banner {
+    display: flex;
+    background: #E0C340;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+}
+
+
+
+.banner_img {
+    
+}
+
+.banner_container_title {
+    
+}
+
+.banner_title {
+    padding-top: 160px;
+    padding-left: 120px;
+    text-align: left;
+}
+
+.banner_highlight {
+    max-width: 580px;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+}
+
+.highlight2 {
+    display: inline-block;
+    position: relative;
+
+}
+
+.highlight2 span {
+    position: relative;
+}
+
+.highlight2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -12px;
+    bottom: 10px;
+    left: -20px;
+    right: -50px;
+    background-color: white;
+    transform: rotate(-2deg);
+}
+
+.banner_desc {
+    max-width: 680px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.banner_date {
+    max-width: 480px;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-top: 20px;
+}
+
+.banner_terms {
+    max-width: 490px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: -0.02em;
+}
+
+.promo_btn_wrapper2 {
+    display: flex;
+    margin-top: 60px;
+}
+
+
+.promo_btn2 {
+    padding: 27px 60px;
+    background: black;
+    border-radius: 7px;
+    color: white;
+}
+
+.text-with-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Это пример тени, вы можете настроить параметры */
+    display: inline-block; /* Чтобы тень не растягивала контейнер */
+    /* Другие стили, если необходимо */
+  }
