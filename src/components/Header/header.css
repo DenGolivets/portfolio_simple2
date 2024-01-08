@@ -1,0 +1,49 @@
+.header {
+    padding: 40px 0 60px;
+}
+
+.header_row {
+    display:  flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_logo span {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header_nav ul {
+    display: flex;
+    column-gap: 65px;
+    align-items: center;
+}
+
+.header_nav a {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+.signup, a.signup {
+    padding: 13px 22px 17px;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.03em;
+}
