@@ -1,8 +1,35 @@
+import React, { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { Element } from 'react-scroll';
+import debounce from 'lodash/debounce';
 import BannerImg from '../../img/images/promo-img.jpg'
 import './banner.css';
 
 function Banner() {
+
+    const controls = useAnimation();
+
+    useEffect(() => {
+        const handleScroll = debounce(() => {
+            if (window.scrollY > 400) {
+            controls.start({ x: 0, opacity: 1 });
+        }
+        }, 400);
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [controls]);
+
     return (
+        <Element name="banner" className="banner1">
+        <motion.div
+            initial={{ x: '-100%', opacity: 0 }}
+            animate={controls}
+            transition={{ duration: 1.3, ease: 'linear' }}
+        >
         <div className='banner'>
             <div className='container_banner'>
                 <div className='banner_img'>
@@ -20,12 +47,12 @@ function Banner() {
                         </div>
                         <div className='banner_desc'>
                         <span className='text-with-shadow'>
-                        Spend minimal $100 get 30% off
+                        Spend minimal $150 get 40% off
                         voucher code for your next purchase
                         </span>
                         </div>
                         <div className='banner_date'>
-                            1 June - 10 June 2021
+                            1 July - 10 July 2023
                         </div>
                         <div className='banner_terms'>
                             *Terms & Conditions apply
@@ -39,6 +66,8 @@ function Banner() {
                 </div>
             </div>
         </div>
+        </motion.div>
+        </Element>
     )
 }
 

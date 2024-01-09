@@ -1,8 +1,14 @@
-import './promo.css'
+import React from 'react';
+import { motion } from 'framer-motion';
 import PromoImg from '../../img/images/header-img.jpg'
-
+import './promo.css'
 function Promo() {
     return (
+        <motion.div
+            initial={{ opacity: 0, y: 1000 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.5, delay: 1 }}
+        >
         <div className='promo'>
             <div className='container_promo'>
                 <div className='promo_content'>
@@ -36,6 +42,7 @@ function Promo() {
                 </div>
             </div>
         </div>
+        </motion.div>
     )
 }
 export default Promo;

@@ -1,3 +1,6 @@
+import React, { useEffect } from 'react';
+import { motion, useAnimation } from 'framer-motion';
+import { Element } from 'react-scroll';
 import './brands.css'
 import hm from '../../img/brands/HM.png'
 import obey from '../../img/brands/Obey.png'
@@ -7,6 +10,7 @@ import levis from '../../img/brands/Levis.png'
 import amazon from '../../img/brands/Amazon.png'
 
 function Brands () {
+
     return (
         <div className='brands'>
             <div className='container_brands'>
@@ -19,7 +23,6 @@ function Brands () {
                     <a><img src={amazon} alt='amazon' /></a>
                 </div>
             </div>
-
         </div>
     )
 }
